@@ -1,0 +1,141 @@
+body , html {
+    background:linear-gradient(120deg , blueviolet , green);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+}
+
+.logo1 {
+    width: 100px;
+    display: inline;
+}
+
+
+.logo {
+    display: inline;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav li{
+    height: 50px;
+  }
+  nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  nav a:hover{
+    background-color: #f0f0f0;
+  }
+  nav li:first-child{
+    margin-right: auto;
+  }
+  .sidebar{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sidebar li{
+    width: 100%;
+  }
+  .sidebar a{
+    width: 100%;
+  }
+  .menu-button{
+    display: none;
+  }
+  @media(max-width: 800px){
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+  }
+  @media(max-width: 400px){
+    .sidebar{
+      width: 100%;
+    }
+  }
+
+  .logo {
+    width: 20px;
+  }
+  .throughts {
+    margin: 50px;
+    color: rgb(0, 0, 0);
+  }
+
+  .joinus {
+    background-color: #6aaf76;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 60px;
+  }
+
+  #history {
+    display: flex;
+    margin: 50px;
+  }
+  .history {
+    color: #000000;
+  }
+  p {
+    margin: 52px;
+    color: rgb(255, 255, 255);
+    padding: 45px;
+    font-size: 22px;
+  }
+
+  .img {
+    margin: 20px;
+    width: 400px;
+  }
+
+  .history {
+    font-size: 30px;
+  }
